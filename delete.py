@@ -1,8 +1,9 @@
 import numpy as np
 
-print(np.random.randint(0,2,(3,4)))
-print("hello world")
-print("reset")
-print("COMMIT2")
-print("yes")
-print("didi liukaihua_i")
+a = np.random.randint(0,2,(3,4))
+b = np.random.randint(0,2,(4,3))
+print(a)
+print(b)
+
+print(a@b)
+print(np.dot(a,b))
